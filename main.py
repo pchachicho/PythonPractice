@@ -6,21 +6,23 @@
 
 # What advantages are available when we're working with Python? If this Array was instead a set, we wouldn't be able to store multiple values in it. Uncomment the identical set below and run the print statement. What did you notice in the console return?
 
-# my_set = {12, 55, 33, 40, 55, 33, 20, 12}
+my_set = {12, 55, 33, 40, 55, 33, 20, 12}
+print(my_set)
 
-# print(my_set)
 
 #Question 1a: Create a set of your own with at least 3 different elements.
-
+set1 = {'pink', 'green', 'blue', 'red'}
 #Question 1b: Add an item to the set that you just created.
+set1.add('blue2')
 
 #Question 1c: Print the set with the new data that you added to it:
+print(set1)
 
 
 #Question 2a: Create a tuple with at least 3 elements inside of it.
-
+tuple = ('fruit', 'veggie', 'protien')
 #Question 2b: Print the tuple you just created.
-
+print(tuple)
 
 
 
